@@ -1,0 +1,81 @@
+
+body *{padding: 0;margin: 0;list-style: none;}
+.calendar{
+    width: 650px;
+    height: 630px;
+    border:1px solid #483729;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    .caption{
+        line-height: 50px;
+        background-image: linear-gradient(90deg,#1a4166,#bae4e4);
+        text-align: center;
+        span{
+            width: 150px;
+            font-size: 18px;
+            letter-spacing: 1px;
+            display: inline-block;
+            vertical-align: middle;
+            color:#ffffff;
+        }
+        button{
+            width: 26px;
+            height: 26px;
+            vertical-align: middle;
+            border: none;
+            border-radius: 50%;
+            background-color: #419c98;
+            background-image: url(img-arrow-icons.svg);
+            background-size: 12px;
+            background-repeat: no-repeat;
+            background-position: 45%;
+            cursor: pointer;
+            &:last-child{ transform: rotateY(180deg); }
+            &:hover{background-color: #247c78;}
+        }
+    }
+    .weekdays-row{
+        display: flex;
+        padding: 8px 10px;
+        color:#483729;
+        font-weight: 600;
+        li{
+            width: 80px;
+            margin:0 5px;
+            text-align: center;
+        }
+    }
+    .week{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 10px;
+        color:#483729;
+        li{
+            width: 80px;
+            height: 80px;
+            padding: 0 2px;
+            margin:0 5px;
+            margin-bottom: 10px;
+            border-radius: 3px;
+            border: solid 1px #d6d6d6;
+            box-sizing: border-box;
+            background-color: #fff;
+            &:nth-of-type(7n),
+            &:nth-of-type(7n+1){color: #d94545; }
+        }
+        .today{
+            color: #ffffff;
+            background-color: rgba(21, 124, 165, 0.5);
+            div{    
+                text-align: center;
+                line-height: 35px;
+            } 
+        }
+        .hidden{ visibility: hidden; }
+    }
+}

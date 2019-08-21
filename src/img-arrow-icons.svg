@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="36px" viewBox="0 0 24 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M854.774976,4292.9973 L865.593011,4303.81533 C866.221991,4304.44431 866.113588,4305.57249 865.350886,4306.3352 C864.588184,4307.0979 863.460002,4307.2063 862.831022,4306.57732 L850.406989,4294.15329 C850.130289,4293.87659 849.996293,4293.50328 849.997929,4293.10697 C849.944855,4292.63868 850.074392,4292.18472 850.397509,4291.8616 L862.845909,4279.4132 C863.476123,4278.78299 864.604094,4278.88918 865.365304,4279.65039 C866.126513,4280.4116 866.232705,4281.53957 865.602491,4282.16978 L854.774976,4292.9973 Z" id="path-1"></path>
+        <filter x="-43.8%" y="-17.8%" width="187.7%" height="149.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="商品頁" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="國外旅_商品頁_03" transform="translate(-846.000000, -4277.000000)" fill-rule="nonzero">
+            <g id="Combined-Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
